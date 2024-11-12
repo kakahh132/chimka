@@ -1,0 +1,25 @@
+#mm {
+    display: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 220px;
+
+    
+}
+
+#joshua { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#mm {
+    display: flex;
+    justify-content: center;
+}
+
+
+ 

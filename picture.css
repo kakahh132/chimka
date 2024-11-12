@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+span {
+    width: 50%;
+}
+#wrap {
+    display: flex;
+}
+
+p {
+    font-size: 30px;
+}
+img {
+    width: -webkit-fill-available;
+    height: 50%;
+}
+
+@media screen and (max-width: 520px) {
+    h1 {
+        font-size: 50px;
+    }
+    #wrap {
+        display: grid;
+    }
+    img {
+        text-align: center;
+        height: 300px;
+    }
+    span {
+        height: max-content;
+        justify-content: center;
+        width: 100%;
+    }
+    #joshua {
+        display: grid;
+    }
+    p {
+        text-align: center;
+        margin: 2px;
+    }
+}

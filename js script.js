@@ -1,0 +1,1 @@
+document.getElementById("kuku").style.color = "purple";
